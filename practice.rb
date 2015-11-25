@@ -27,7 +27,6 @@ class Practice
 		reverse_string = string.reverse
 		reverse_arr = reverse_string.split("")
 		palindrome = false
-
  		for i in 0..(string.length - 1)
 			if string_arr[i] == reverse_arr[i]
 				palindrome = true
@@ -35,9 +34,8 @@ class Practice
 				break
 			end	
  		end
-
-		puts palindrome ? "Palindrome" : "No"
-		puts string == reverse_string ? "Palindrome" : "No"
+		puts palindrome ? "Palindrome" : "Not Palindrome"
+		puts string == reverse_string ? "Palindrome" : "Not Palindrome"
 	end	
 end
 
